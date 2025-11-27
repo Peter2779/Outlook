@@ -11,24 +11,22 @@
   <DefaultLocale>zh-TW</DefaultLocale>
   <DisplayName DefaultValue="AI Outlook 幫手"/>
   <Description DefaultValue="你的超強 AI 郵件助手"/>
-  <IconUrl DefaultValue="https://www.contoso.com/assets/icon-64.png"/>
-  <HighResolutionIconUrl DefaultValue="https://www.contoso.com/assets/icon-128.png"/>
-  <SupportUrl DefaultValue="https://www.contoso.com/help"/>
+  <IconUrl DefaultValue="https://keen-longma-14e6d.netlify.app/assets/icon-64.png"/>
+  <HighResolutionIconUrl DefaultValue="https://keen-longma-14e6d.netlify.app/assets/icon-128.png"/>
+  <SupportUrl DefaultValue="https://keen-longma-14e6d.netlify.app/"/>
   <AppDomains>
-    <AppDomain>https://www.contoso.com</AppDomain>
+    <AppDomain>https://keen-longma-14e6d.netlify.app</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Mailbox"/>
   </Hosts>
   <Requirements>
-    <Sets>
-      <Set Name="Mailbox" MinVersion="1.1"/>
-    </Sets>
+    <Sets><Set Name="Mailbox" MinVersion="1.1"/></Sets>
   </Requirements>
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://www.contoso.com/taskpane.html"/>
+        <SourceLocation DefaultValue="https://keen-longma-14e6d.netlify.app/taskpane.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -93,23 +91,20 @@
 
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="https://www.contoso.com/assets/icon-16.png"/>
-        <bt:Image id="Icon.32x32" DefaultValue="https://www.contoso.com/assets/icon-32.png"/>
-        <bt:Image id="Icon.80x80" DefaultValue="https://www.contoso.com/assets/icon-80.png"/>
+        <bt:Image id="Icon.16x16" DefaultValue="https://keen-longma-14e6d.netlify.app/assets/icon-16.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue="https://keen-longma-14e6d.netlify.app/assets/icon-32.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://keen-longma-14e6d.netlify.app/assets/icon-80.png"/>
       </bt:Images>
-
       <bt:Urls>
-        <bt:Url id="Commands.Url" DefaultValue="https://www.contoso.com/commands.html"/>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://www.contoso.com/taskpane.html"/>
-        <bt:Url id="Popup.Url" DefaultValue="https://www.contoso.com/popup.html"/>
+        <bt:Url id="Commands.Url" DefaultValue="https://keen-longma-14e6d.netlify.app/commands.html"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://keen-longma-14e6d.netlify.app/taskpane.html"/>
+        <bt:Url id="Popup.Url" DefaultValue="https://keen-longma-14e6d.netlify.app/popup.html"/>
       </bt:Urls>
-
       <bt:ShortStrings>
         <bt:String id="GroupLabel" DefaultValue="AI 助手"/>
         <bt:String id="TaskpaneButton.Label" DefaultValue="開啟側邊欄"/>
         <bt:String id="OpenPopupButton.Label" DefaultValue="AI 助手"/>
       </bt:ShortStrings>
-
       <bt:LongStrings>
         <bt:String id="TaskpaneButton.Tooltip" DefaultValue="開啟右邊側邊欄（除錯用）"/>
         <bt:String id="OpenPopupButton.Tooltip" DefaultValue="點擊開啟 AI 浮動視窗"/>
